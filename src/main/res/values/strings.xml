@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">amarskenderovic-pset2</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="story">
+        <item>Simple</item>
+        <item>Tarzan</item>
+        <item>University</item>
+        <item>Clothes</item>
+        <item>Dance</item>
+    </string-array>
+</resources>

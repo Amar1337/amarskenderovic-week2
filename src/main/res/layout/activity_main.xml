@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.amarskenderovic_pset2.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.37"
+            android:src="@drawable/madlibs" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome to Mad Libs! I will ask you to fill in words to complete a story. You won&apos;t be able to see the whole story until you are done filling in all the missing words. That&apos;s part of the fun. Click below to get started!!"
+                android:id="@+id/textView2" />
+        </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started!!"
+            android:id="@+id/button"
+            android:nestedScrollingEnabled="false"
+            android:textSize="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="0.21"
+            android:backgroundTint="#000000"
+            android:onClick="OnButtonClick"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
