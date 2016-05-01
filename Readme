@@ -1,0 +1,12 @@
+amarskenderovic-pset2
+Mad Libs app
+
+amarskenderovic-week1 11196041 madlibs app with 4 different Activities. (also possible in landscape-mode)
+
+1- Homepage with an explanation about the app and a button to begin.
+
+2- Second activity to choose from 5 different stories and a button to create the selected story.
+
+3- Third activity to input the corresponding placeholders, with a counter of how many words are left and a button to continue only if the requirements are met.
+
+4- Last activity to show the output of the input from the 3rd activity and a button to try and create a new story.
